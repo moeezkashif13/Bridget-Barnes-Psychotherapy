@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
+import Image from "next/image";
 
 export default function BookaSession(){
 
@@ -24,8 +25,16 @@ export default function BookaSession(){
 </div>
 
 
-<div className="h-[200px] w-full sm:w-[450px] sm:h-[300px] ">
-    <img src="https://www.bridgetbarnestherapy.com/assets/images/therapy.jpg" className="w-full h-full object-cover max-w-full" alt="" />
+<div className="h-[200px] w-full sm:w-[450px] sm:h-[300px] relative block">
+    
+    
+    <Image src="https://res.cloudinary.com/dtcwpaba5/image/upload/v1692446985/Bridget%20Barnes%20Therapy/i8wrqrllwxlnviqxdkkw.webp" fill quality={100} style={{objectFit:'cover',objectPosition:'center center'}} />
+
+    
+    {/* <img src="https://www.bridgetbarnestherapy.com/assets/images/therapy.jpg" className="w-full h-full object-cover max-w-full" alt="" /> */}
+
+
+
 </div>
 
 

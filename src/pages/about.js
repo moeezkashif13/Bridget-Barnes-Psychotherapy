@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
+import Image from "next/image";
 
 export default function About(){
     return(
@@ -39,9 +40,11 @@ export default function About(){
     lg:w-[230px] lg:h-[230px]
     
     
-     rounded-full">
+     rounded-full relative block">
 
-<img src="/man.jpg" className="w-full max-w-full h-full object-cover rounded-full" />
+<Image src="https://res.cloudinary.com/dtcwpaba5/image/upload/v1692446871/Bridget%20Barnes%20Therapy/e69vpgnubh2hx13gt6b9.webp" className="rounded-full" fill quality={100} style={{objectFit:'cover',objectPosition:'center center'}} />
+
+{/* <img src="https://res.cloudinary.com/dtcwpaba5/image/upload/v1692446871/Bridget%20Barnes%20Therapy/e69vpgnubh2hx13gt6b9.webp" className="w-full max-w-full h-full object-cover rounded-full" /> */}
 
 
 

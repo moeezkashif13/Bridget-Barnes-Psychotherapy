@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer"
 import Navbar from "@/components/Navbar"
 import Head from "next/head"
+import Image from "next/image"
 import Link from "next/link"
 import {BsArrowRight} from 'react-icons/bs'
 
@@ -45,11 +46,13 @@ export default function Home() {
 
 ">
 
-<div className="absolute w-full h-full  bg-pink-500 left-0 top-0">
+<div className="absolute w-full h-full   left-0 top-0">
 
-    <div className="w-full h-full relative">
+    <div className="w-full h-full relative block">
 
-      <img src="https://www.bridgetbarnestherapy.com/assets/images/banner.jpg" className="h-full w-full max-w-full object-cover" alt="" />
+<Image src="https://res.cloudinary.com/dtcwpaba5/image/upload/v1692446735/Bridget%20Barnes%20Therapy/puzk8i2hgi03shk7uztp.webp" fill quality={100} style={{objectFit:'cover',objectPosition:'center center'}} />
+
+      {/* <img src="https://res.cloudinary.com/dtcwpaba5/image/upload/v1692446735/Bridget%20Barnes%20Therapy/puzk8i2hgi03shk7uztp.webp" className="h-full w-full max-w-full object-cover" alt="" /> */}
 
 
 <div className="absolute w-full h-full bg-[rgba(35,40,67,0.85)] top-0 text-white font-semibold  space-y-4 md:space-y-8 px-mobilePadding     md:px-tabletPadding lg:px-desktopPadding ">
@@ -65,9 +68,12 @@ lg:w-[250px] lg:h-[250px]
 
 
 
- rounded-full">
+ rounded-full relative block">
 
-<img src="/man.jpg" className="w-full max-w-full h-full object-cover rounded-full" />
+<Image src="https://res.cloudinary.com/dtcwpaba5/image/upload/v1692446871/Bridget%20Barnes%20Therapy/e69vpgnubh2hx13gt6b9.webp" className="rounded-full" fill quality={100} style={{objectFit:'cover',objectPosition:'center center'}} />
+
+
+{/* <img src="/man.jpg" className="w-full max-w-full h-full object-cover rounded-full" /> */}
 
 
  </div>
