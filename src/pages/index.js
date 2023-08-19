@@ -42,7 +42,7 @@ export default function Home() {
 
 {/* FIRSTTT SECTIONN */}
 
-<div className="px-mobilePadding bg-green-500    md:px-tabletPadding lg:px-desktopPadding relative
+<div className="px-mobilePadding md:px-tabletPadding lg:px-desktopPadding relative
 
 ">
 
@@ -50,9 +50,15 @@ export default function Home() {
 
     <div className="w-full h-full relative block">
 
-<Image src="https://res.cloudinary.com/dtcwpaba5/image/upload/v1692446735/Bridget%20Barnes%20Therapy/puzk8i2hgi03shk7uztp.webp" fill quality={100} style={{objectFit:'cover',objectPosition:'center center'}} />
+{/* <Image src="https://res.cloudinary.com/dtcwpaba5/image/upload/v1692446735/Bridget%20Barnes%20Therapy/puzk8i2hgi03shk7uztp.webp" fill quality={100} style={{objectFit:'cover',objectPosition:'center center'}} /> */}
 
       {/* <img src="https://res.cloudinary.com/dtcwpaba5/image/upload/v1692446735/Bridget%20Barnes%20Therapy/puzk8i2hgi03shk7uztp.webp" className="h-full w-full max-w-full object-cover" alt="" /> */}
+
+{/* <Image src="/banner.webp" fill quality={100} style={{objectFit:'cover',objectPosition:'center center'}} /> */}
+
+
+      <img src="/banner.webp" className="h-full w-full max-w-full object-cover" alt="" />
+
 
 
 <div className="absolute w-full h-full bg-[rgba(35,40,67,0.85)] top-0 text-white font-semibold  space-y-4 md:space-y-8 px-mobilePadding     md:px-tabletPadding lg:px-desktopPadding ">
@@ -70,10 +76,10 @@ lg:w-[250px] lg:h-[250px]
 
  rounded-full relative block">
 
-<Image src="https://res.cloudinary.com/dtcwpaba5/image/upload/v1692446871/Bridget%20Barnes%20Therapy/e69vpgnubh2hx13gt6b9.webp" className="rounded-full" fill quality={100} style={{objectFit:'cover',objectPosition:'center center'}} />
+{/* <Image src="https://res.cloudinary.com/dtcwpaba5/image/upload/v1692446871/Bridget%20Barnes%20Therapy/e69vpgnubh2hx13gt6b9.webp" className="rounded-full" fill quality={100} style={{objectFit:'cover',objectPosition:'center center'}} /> */}
 
 
-{/* <img src="/man.jpg" className="w-full max-w-full h-full object-cover rounded-full" /> */}
+<img src="/man.webp" className="w-full max-w-full h-full object-cover rounded-full" />
 
 
  </div>
@@ -114,7 +120,7 @@ lg:w-[250px] lg:h-[250px]
 
 
 {/* DO NOT TOUCH IT */}
-<div className=" text-white font-semibold py-20 md:py-12 space-y-4 md:space-y-8 ">
+<div className=" text-white font-semibold py-20 md:py-12 space-y-4 md:space-y-8 invisible">
 
 <div className="w-[150px] h-[150px]
 
