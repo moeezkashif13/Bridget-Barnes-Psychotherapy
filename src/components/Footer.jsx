@@ -37,7 +37,8 @@ export default function Footer({noPadding}){
   const [sendingLoader,setSendingLoader] = useState(false)
 
   const { register, handleSubmit, formState: { errors } } = useForm({
-    resolver: yupResolver(schema)
+    resolver: yupResolver(schema),
+    mode:"onChange"
 
   });
 
